@@ -251,8 +251,8 @@ public class Problem2 {
                     //function of names
                     for(int i =0;i<7;i++){
                         for(int j=0;j<6;j++){
-                            for(int q=j+1;q<6;q++){
-                                if(names_a[i][j].equals(names_a[i][q])){                                    
+                            for(int k=j+1;k<6;k++){
+                                if(names_a[i][k].equalsIgnoreCase(names_a[i][k])){                                    
                                         System.out.println("There are 2 : "+names_a[i][j]);                                    
                                 }else{}
                             }   
